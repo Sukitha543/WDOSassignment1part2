@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/pharmacy.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <link rel="icon" type="images/PNG" href="images/android-chrome-192x192.png">
+        <title>Pharmacy</title>
+    </head>
+    <body>
+        <!-- Header with the logo -->
+        <header>
+            <div class="logo">
+                <img src="images/hospital logo.PNG" alt="logo">
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="doctors.html">Doctors</a></li>
+                    <li><a href="consulting.html">Consulting Reservations</a></li>
+                    <li><a href="pharmacy.html">Pharmacy</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+        <!-- Pharmacy -->
+            <div class="pharmacy">
+                <h1>Pharmacy</h1>
+            </div>
+            <form action="#">
+            <fieldset>
+                <!-- Customer Name -->
+            <label for="customername">Customer Name:</label>
+            <br>
+            <input type="text" id="customername" name="customername" required>
+                <!-- Title -->
+            <label for="title">Title:</label>
+            <br>
+             <input type="radio" id="title1" name="title" value="Mr">
+             <label for="title1">Mr</label>
+             <br>
+             <input type="radio" id="title2" name="title" value="Mrs">
+             <label for="title2">Mrs</label>
+             <br>
+             <input type="radio" id="title3" name="title" value="Ms">
+             <label for="title3">Ms</label>
+             <br>
+             <br>
+               <!-- Contact Number -->
+             <label for="contact2">Contact Number:</label>
+             <br>
+             <input type="text" id="contact2" name="contact2" maxlength="12" required>
+             <br>
+             <br>
+               <!-- Delivery Address -->
+             <label for="address">Delivery Address:</label>
+                <br>
+                <textarea name="address" id="address" cols="60" rows="10" required></textarea>
+                <br>
+                <!-- Branch -->
+                <label for="branch">Branch:</label>
+                <br>
+                <input type="radio" id="branch1" name="branch" value="Colombo">
+                <label for="branch1">Union Place</label>
+                <br>
+                <input type="radio" id="branch2" name="branch" value="Thalawathugoda">
+                <label for="branch2">Borella</label>
+                <br>
+                <input type="radio" id="branch3" name="branch" value="Malabe">
+                <label for="branch3">Malabe</label>
+                <br>
+                <br>
+                 <!-- Select Medicine -->
+                <label for="doctor">Select Medicine:</label>
+                 <br>
+                 <select id="medicine" name="medicine">
+                    <option value="medicine0">-SELECT-</option>  
+                    <option value="medicine1">AXE Universal Oil 56ml-LKR2,200.00</option>  
+                    <option value="medicine2">IODEX Balm 45g-LKR850.00</option>
+                    <option value="medicine3">Valmelix Cough Syrup 100ml-LKR410.00</option>
+                    <option value="medicine4">Samahan Packets 100s-LKR5000.00</option>
+                    <option value="medicine5">Ensure Vanilla Jar 400g-LKR3,500.00</option>
+                    <option value="medicine6">Mega Max Forte Fishoil 100-LKR6000.00</option>
+                    <option value="medicine7">Strepsils Cool 24pcs-LKR720.00</option>  
+                    <option value="medicine8">Panadol 240tablets-LKR1000.00</option>
+                    <option value="medicine9">Digiene Tablets Orange 15pcs-LKR 170.00</option>
+                    <option value="medicine10">Dettol Plasters 100 Frabic Strips-LKR200.00</option>
+                    <option value="medicine11">Himalaya Lip Balm 10g-LKR 80.00</option>
+                    <option value="medicine12">Omron Blood Pressure Monitor LKR24,000.00</option>
+                    <option value="medicine13">Farlin One Touch Digital Thermometer-LKR10,400.00</option>  
+                    <option value="medicine14">One Touch Gluco Meter-LKR5300.00</option>  
+                    <option value="medicine15">Protienex Vegetable Protien 180g-LKR2000.00</option>  
+                 </select>
+                 <br>
+                 <br>
+                  <!-- Quantity -->
+                 <label for="quantity">Quantity:</label>
+                 <br>
+                 <input type="number" name="quantity" id="numfield"><br>
+             </fieldset>
+                 <!-- Buttons -->
+             <button type="submit">Order</button>
+             <button type="reset">Clear</button>
+             </form>
+           </main>
+           <footer>
+            <!-- Footer with the logo -->
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <img src="images/hospital logo.PNG" alt="logo">
+                </div>
+                <div class="footer-quick-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="doctors.html">Doctors</a></li>
+                        <li><a href="consulting.html">Consulting Reservations</a></li>
+                        <li><a href="pharmacy.html">Pharmacy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>011 456 3784</li>
+                        <li>main.info@carenest.com</li>
+                    </ul>
+                 </div>
+                </div>
+                <div class="footer-copy">
+                    <p>&copy;2024 Care Nest Hospitals.All rights reserved</p>
+                </div>
+        </footer> 
+        </body>
+        </html>
